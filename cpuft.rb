@@ -4,9 +4,9 @@
 class Cpuft < Formula
   desc "Tool for Detecting CPU Frequency and Temperature."
   homepage ""
-  url "https://raw.githubusercontent.com/lihaoyun6/web/master/homebrew-pack/cpuft-0.0.1.tar.xz"
-  version "0.0.1"
-  sha256 "7b65d7a3528d95ade8f7d69233079bda31c7942cc912b051869348668a65b340"
+  url "https://raw.githubusercontent.com/lihaoyun6/web/master/homebrew-pack/cpuft-0.0.2.tar.xz"
+  version "0.0.2"
+  sha256 "7735cd59a9d2faf90b9cce3865408d1e620da47c4ae3c5282944b4e56dd38355"
   # depends_on "cmake" => :build
 
   def install
