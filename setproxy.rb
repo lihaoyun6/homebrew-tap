@@ -4,7 +4,7 @@
 class Setproxy < Formula
   desc "command line tool to change macOS proxy settings"
   homepage ""
-  url "https://raw.githubusercontent.com/lihaoyun6/web/master/homebrew-pack/setproxy-1.7.5.tar.xz"
+  url "https://cdn.jsdelivr.net/gh/lihaoyun6/web/homebrew-pack/setproxy-1.7.5.tar.xz"
   version "1.7.5"
   sha256 "36328ae77fa57b7c739db0f1a64a087e9fd03e48a31d507d10658aee44a6f564"
   # depends_on "cmake" => :build
