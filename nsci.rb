@@ -4,9 +4,9 @@
 class Nsci < Formula
 	desc "Night Shift Command-line Interface"
 	homepage ""
-	url "https://cdn.jsdelivr.net/gh/lihaoyun6/web/homebrew-pack/nsci-0.3.3.tar.gz"
-	version "0.3.3"
-	sha256 "1e71580ab205f3a79c4d1d5261cdb428dc1165cca3d13e259220dca73f59b588"
+	url "https://cdn.jsdelivr.net/gh/lihaoyun6/web/homebrew-pack/nsci-0.3.4.tar.gz"
+	version "0.3.4"
+	sha256 "d32a8d323eca7f9e31d9f43fe75f873c29b6175c9405dd03309bcbb91c5e55cc"
 	# depends_on "cmake" => :build
 
 	def install
