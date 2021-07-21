@@ -15,6 +15,6 @@ class Nsci < Formula
 		bin.install "nsci"
 	end
 	def caveats
-    		"If you are upgrading from a version earlier than v0.3.2, you must update the LaunchAgent with \"nsci conf [paras...]\" command."
+    		"If you're upgrading from a version earlier than 0.3.2, please update the LaunchAgent with \"nsci conf [paras...]\" command."
   	end
 end
