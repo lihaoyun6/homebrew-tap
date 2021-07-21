@@ -4,9 +4,9 @@
 class Nsci < Formula
 	desc "Night Shift Command-line Interface"
 	homepage ""
-	url "https://cdn.jsdelivr.net/gh/lihaoyun6/web/homebrew-pack/nsci-0.2.2.tar.gz"
-	version "0.2.2"
-	sha256 "5aaf7f09d59f7784c2caabfbd272565a52589ff4f058fe231cbe484fb83f9e12"
+	url "https://cdn.jsdelivr.net/gh/lihaoyun6/web/homebrew-pack/nsci-0.3.2.tar.gz"
+	version "0.3.2"
+	sha256 "0109b85554df897f95eddf7905d84918563a7e03ee7e24b3abfe281c83385a0c"
 	# depends_on "cmake" => :build
 
 	def install
@@ -14,4 +14,7 @@ class Nsci < Formula
 		# Remove unrecognized options if warned by configure
 		bin.install "nsci"
 	end
+	def caveats
+    		"If you are upgrading from a version earlier than v0.3.2, you must update the LaunchAgent with \"nsci conf [paras...]\" command."
+  	end
 end
