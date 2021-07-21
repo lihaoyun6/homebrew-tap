@@ -6,8 +6,8 @@ class Nsci < Formula
 	homepage ""
 	url "https://cdn.jsdelivr.net/gh/lihaoyun6/web/homebrew-pack/nsci-0.3.6.tar.gz"
 	version "0.3.6"
-	sha256 "5b6cfe19cfb7cb27c470fc791cb273bc1c5e020adf8352af15a34e073e37060d"
-	depends_on "lihaoyun6/tap/get-local"
+	sha256 "294abc0cd3e4c748a89836fcfc4c37a7768a8fdc7722d1b5288f6c94813c60fb"
+	depends_on "lihaoyun6/tap/getlocal"
 	# depends_on "cmake" => :build
 
 	def install
