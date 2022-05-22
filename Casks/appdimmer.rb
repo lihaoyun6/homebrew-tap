@@ -1,6 +1,6 @@
 cask "appdimmer" do
-  version "0.3.7"
-  sha256 "83daae08dd4a9f975af190b58aa65acaca16b0d141a73bbf14cb0c4574354e8d"
+  version "0.3.8"
+  sha256 "4d4db4e57c8204e1fc19823c420e4542b46ee18182ce9b9b4050b98c9c0d05dc"
 
   url "https://github.com/lihaoyun6/AppDimmer/releases/download/#{version}/AppDimmer_v#{version}.dmg"
   name "AppDimmer"
