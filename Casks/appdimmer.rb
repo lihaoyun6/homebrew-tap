@@ -1,10 +1,10 @@
 cask "appdimmer" do
-  version "0.3.8"
-  sha256 "4d4db4e57c8204e1fc19823c420e4542b46ee18182ce9b9b4050b98c9c0d05dc"
+  version "0.4.0"
+  sha256 "c3babd5009974adbe4ecad71d38825e3d4a2047dc21dd5d07789acbc8e3f169c"
 
   url "https://github.com/lihaoyun6/AppDimmer/releases/download/#{version}/AppDimmer_v#{version}.dmg"
   name "AppDimmer"
-  desc "Control the window brightness of a specific App"
+  desc "Control the window brightness of a specific App."
   homepage "https://github.com/lihaoyun6/AppDimmer"
 
   app "AppDimmer.app"
