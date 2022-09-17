@@ -1,6 +1,6 @@
 cask "qdelayer" do
   version "0.1.2"
-  sha256 "8c9097076a37b3d8146a51ea96f6f4f0d33843a16ee1b6bb5d730a1648429b5d"
+  sha256 "c966b83ca13d1908bdc8e8d237144b251654f6958c5897ad1d2087374f9d1958"
 
   url "https://github.com/lihaoyun6/QDelayer/releases/download/#{version}/QDelayer_v#{version}.dmg"
   name "QDelayer"
