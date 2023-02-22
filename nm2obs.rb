@@ -5,7 +5,7 @@ class Nm2obs < Formula
 	version "0.1.1"
 	desc "用于将OBS播放信息实时导出同步至OBS的脚本"
 	homepage "https://github.com/lihaoyun6/NeteaseMusic2OBS"
-	url "https://github.com/lihaoyun6/NeteaseMusic2OBS/releases/download/#{version}/nm2obs_v#{version}.zip"
+	url "https://github.com/lihaoyun6/NeteaseMusic2OBS/releases/download/0.1.1/nm2obs_v0.1.1.zip"
 	sha256 "d1690bacbf3c8c8f7b50118b3c70bd8fa0b9392ef4289970a3656684910337e9"
 	# depends_on "cmake" => :build
 
