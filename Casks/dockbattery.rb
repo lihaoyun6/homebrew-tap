@@ -1,6 +1,6 @@
 cask "dockbattery" do
-  version "1.1.1"
-  sha256 "d9478502837bcda43a14f2b8d0e536d37da921bd04af9a0f92651a4184e42f14"
+  version "1.1.2"
+  sha256 "ab90e15110fcf95a03f0101cdc1905988f3775877b7f6fd61a578d2b4a2bad5f"
 
   url "https://github.com/lihaoyun6/DockBattery/releases/download/#{version}/DockBattery_v#{version}.dmg"
   name "DockBattery"
