@@ -1,11 +1,11 @@
 cask "dockbattery" do
-  version "1.1.4"
-  sha256 "cb716da5145bba96e5cba4d024f8ae6ec9c508b6d726e9abc7fa74b545f02570"
+  version "1.2.0"
+  sha256 "22ec31472bf362c738703139b9c9440ba4f92dba58ed1c2742989997b5f8dfcf"
 
-  url "https://github.com/lihaoyun6/DockBattery/releases/download/#{version}/DockBattery_v#{version}.dmg"
-  name "DockBattery"
+  url "https://github.com/lihaoyun6/AirBattery/releases/download/#{version}/AirBattery_v#{version}.dmg"
+  name "AirBattery"
   desc "Get the battery level of all your devices on your Mac."
-  homepage "https://github.com/lihaoyun6/DockBattery"
+  homepage "https://github.com/lihaoyun6/AirBattery"
 
-  app "DockBattery.app"
+  app "AirBattery.app"
 end
