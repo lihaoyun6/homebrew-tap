@@ -16,4 +16,9 @@ cask "quickrecorder" do
   depends_on macos: ">= :monterey"
 
   app "QuickRecorder.app"
+
+  zap trash: [
+    "~/Library/HTTPStorages/com.lihaoyun6.QuickRecorder",
+    "~/Library/Preferences/com.lihaoyun6.QuickRecorder.plist",
+  ]
 end
