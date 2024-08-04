@@ -1,6 +1,6 @@
 cask "logoer" do
-  version "0.1.9"
-  sha256 "bb44c559b0c8ce868f91aef6e5ddfb0819a5219a4e84e985c7ec5519e050cf91"
+  version "0.2.0"
+  sha256 "3a637b3f03465e8bd90b7c49fb29a2273c72b45c3183209dba20e1d9c4ca03ca"
 
   url "https://github.com/lihaoyun6/Logoer/releases/download/#{version}/Logoer_v#{version}.dmg"
   name "Logoer"
