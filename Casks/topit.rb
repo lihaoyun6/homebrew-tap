@@ -1,6 +1,6 @@
 cask "topit" do
-  version "0.1.3"
-  sha256 "459ce214af53c772b4d7f8dc762259ae678937169f5b927b064e731192b57c78"
+  version "0.1.4"
+  sha256 "ad066f7856b03e75efafa1fbb381e311cfcf665b4c9681df6b7c2d1eef6d066c"
 
   url "https://github.com/lihaoyun6/Topit/releases/download/#{version}/Topit_v#{version}.dmg"
   name "Topit"
