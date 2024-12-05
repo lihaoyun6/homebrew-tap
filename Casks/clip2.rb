@@ -1,6 +1,6 @@
 cask "clip2" do
-  version "0.1.0"
-  sha256 "c6a4b44c36ed561c9ba95da6b53bb72e6649b2c4cb130a22019b91bf2b942a6e"
+  version "0.1.1"
+  sha256 "a18f99711b5131b78ff5c3ee55b9019c051898d4ee49890f8df7fa205c588a79"
 
   url "https://github.com/lihaoyun6/Clip2/releases/download/#{version}/Clip2_v#{version}.dmg"
   name "Clip2"
