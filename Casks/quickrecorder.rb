@@ -13,7 +13,13 @@ cask "quickrecorder" do
     regex(%r{href=.*?/tag/v?(\d+(?:\.\d+)+)["' >]}i)
   end
   
-  depends_on macos: ">= :monterey"
+  depends_on macos: [
+    :monterey,
+    :ventura,
+    :sonoma,
+    :sequoia,
+    :tahoe,
+  ]
 
   app "QuickRecorder.app"
 
