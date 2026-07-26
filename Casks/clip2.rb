@@ -6,18 +6,13 @@ cask "clip2" do
   name "Clip2"
   desc "Add a second clipboard to your macOS."
   homepage "https://github.com/lihaoyun6/Clip2"
-  
-  livecheck do
-    url "https://github.com/lihaoyun6/Clip2/releases/latest"
-    strategy :page_match
-    regex(%r{href=.*?/tag/v?(\d+(?:\.\d+)+)["' >]}i)
-  end
-  
-  depends_on macos: ">= :big_sur"
+
+  depends_on macos: :big_sur
 
   app "Clip2.app"
 
   zap trash: [
+    "~/Library/HTTPStorages/com.lihaoyun6.Clip2",
     "~/Library/Preferences/com.lihaoyun6.Clip2.plist",
   ]
 end

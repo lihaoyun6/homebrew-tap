@@ -8,4 +8,8 @@ cask "pixboard" do
   homepage "https://github.com/lihaoyun6/Pixboard"
 
   app "Pixboard.app"
+
+  zap trash: [
+    "~/Library/Preferences/com.lihaoyun6.Pixboard.plist",
+  ]
 end

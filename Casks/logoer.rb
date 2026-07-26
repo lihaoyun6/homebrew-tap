@@ -6,18 +6,15 @@ cask "logoer" do
   name "Logoer"
   desc "Change the style of the Apple logo in macOS menu bar."
   homepage "https://github.com/lihaoyun6/Logoer"
-  
-  livecheck do
-    url "https://github.com/lihaoyun6/Logoer/releases/latest"
-    strategy :page_match
-    regex(%r{href=.*?/tag/v?(\d+(?:\.\d+)+)["' >]}i)
-  end
-  
-  depends_on macos: ">= :monterey"
+
+  depends_on macos: :monterey
 
   app "Logoer.app"
 
   zap trash: [
-    "~/Library/Containers/com.lihaoyun6.Logoer/Data/Library/Preferences/com.lihaoyun6.Logoer.plist",
+    "~/Library/Application Scripts/com.lihaoyun6.Logoer",
+    "~/Library/Application Scripts/com.lihaoyun6.LogoerHelper",
+    "~/Library/Containers/com.lihaoyun6.Logoer",
+    "~/Library/Containers/com.lihaoyun6.LogoerHelper",
   ]
 end

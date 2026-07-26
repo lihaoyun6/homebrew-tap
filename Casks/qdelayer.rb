@@ -8,4 +8,12 @@ cask "qdelayer" do
   homepage "https://github.com/lihaoyun6/QDelayer"
 
   app "QDelayer.app"
+
+  zap trash: [
+    "~/Library/Application Scripts/com.lihaoyun6.QDelayerLoginHelper",
+    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.lihaoyun6.qdelayer.sfl3",
+    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.lihaoyun6.qdelayerloginhelper.sfl3",
+    "~/Library/Containers/com.lihaoyun6.QDelayerLoginHelper",
+    "~/Library/Preferences/com.lihaoyun6.QDelayer.plist",
+  ]
 end

@@ -8,4 +8,11 @@ cask "appdimmer" do
   homepage "https://github.com/lihaoyun6/AppDimmer"
 
   app "AppDimmer.app"
+
+  zap trash: [
+    "~/Library/Application Scripts/com.lihaoyun6.AppDimmerLoginHelper",
+    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.lihaoyun6.appdimmerloginhelper.sfl3",
+    "~/Library/Containers/com.lihaoyun6.AppDimmerLoginHelper",
+    "~/Library/Preferences/com.lihaoyun6.AppDimmer.plist",
+  ]
 end
