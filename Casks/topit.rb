@@ -13,7 +13,7 @@ cask "topit" do
     regex(%r{href=.*?/tag/v?(\d+(?:\.\d+)+)["' >]}i)
   end
   
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Topit.app"
 
