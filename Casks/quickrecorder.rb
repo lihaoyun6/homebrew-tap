@@ -4,16 +4,16 @@ cask "quickrecorder" do
 
   url "https://github.com/lihaoyun6/QuickRecorder/releases/download/#{version}/QuickRecorder_v#{version}.dmg"
   name "QuickRecorder"
-  desc "A lightweight and high-performance screen recorder for macOS."
+  desc "Lightweight and high-performance screen recorder"
   homepage "https://github.com/lihaoyun6/QuickRecorder"
-  
+
   livecheck do
     url "https://github.com/lihaoyun6/QuickRecorder/releases/latest"
     strategy :page_match
     regex(%r{href=.*?/tag/v?(\d+(?:\.\d+)+)["' >]}i)
   end
-  
-  depends_on macos: ">= :monterey"
+
+  depends_on macos: :monterey
 
   app "QuickRecorder.app"
 
